@@ -1,14 +1,9 @@
 # 🌐 Harsh Vardhan Kumar - Full Stack Developer Portfolio
 
 Welcome to my personal developer portfolio! This is a **responsive full-stack developer portfolio website** built using **HTML, CSS, and JavaScript**, showcasing my experience, skills, projects, and achievements.
-
-## 📸 Preview
-
-![Portfolio Screenshot](./assets/portfolio-preview.png)
-
 ## 🚀 Live Demo
 
-🔗 [Visit Portfolio Website](https://your-live-site-link.com)
+🔗 https://harshprofil.netlify.app
 
 ---
 
