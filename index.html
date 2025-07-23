@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Vardhan Kumar - Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header id="hero" class="hero-section">
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">Harsh.dev</a>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="burger-menu">&#9776;</div>
+            </div>
+        </nav>
+        <div class="hero-content container animate__animated animate__fadeInUp">
+            <h1 class="main-heading">Hi, I'm <span class="highlight-text">Harsh Vardhan Kumar</span></h1>
+            <p class="tagline" id="typewriter-text"></p>
+            <div class="social-hero">
+                <a href="tel:+916207384926" target="_blank" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                <a href="mailto:harshvardhan1412002@gmail.com" target="_blank" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/harsh-vardhan-8b406a250" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/007Harshvardhan" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+            <a href="#projects" class="btn btn-primary animate__animated animate__bounceIn" style="animation-delay: 1s;">View My Work <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I am Harsh Vardhan Kumar, a passionate web developer with a Bachelor of Technology in Computer Science and Engineering from the National Institute of Technology, Agartala. My journey in web development is driven by a desire to create beautiful and functional web experiences that solve real-world problems.</p>
+                    <p>During my internship at National Informatics Center (NIC), Agartala, I architected and deployed a Python-based recommendation engine for government schemes, which significantly increased user engagement and improved citizen service delivery</p>
+                    <p>I thrive in Agile environments, collaborating with teams to deliver robust and efficient solutions. I'm adept at full-stack development, machine learning applications, and optimizing performance to handle high concurrency.</p>
+                </div>
+                <div class="about-image">
+                    <img src="/image/56d8d3b46b5d6d415b52b010be3f4dc2.jpg" alt="Harsh Vardhan Kumar Profile" class="profile-pic-about cartoon-image-ui">
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item animate__animated animate__fadeInLeft">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Software Development Intern <span class="company-name">@ National Informatics Center (NIC), Agartala</span></h3>
+                        <span class="dates">May 2024 -- July 2024</span>
+                        <ul>
+                            <li>Architected and deployed a <strong class="highlight">Python-based recommendation engine</strong> for government schemes using machine learning algorithms, resulting in <strong class="highlight">25% increase in user engagement</strong> and improved citizen service delivery</li>
+                            <li>Developed and optimized <strong class="highlight">RESTful APIs</strong> with proper authentication and error handling, achieving <strong class="highlight">20% reduction in response latency</strong> and serving <strong class="highlight">1000+ concurrent users</strong></li>
+                            <li>Implemented comprehensive <strong class="highlight">unit testing</strong> and <strong class="highlight">integration testing</strong> using pytest, achieving <strong class="highlight">90% code coverage</strong> and reducing production bugs by <strong class="highlight">40%</strong></li>
+                            <li>Collaborated with senior developers and product managers in <strong class="highlight">Agile environment</strong>, participating in code reviews and sprint planning sessions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card animate__animated animate__fadeInUp">
+                    <img src="/image/63f902d89a33f71c826ce746_6390a10c3644738a41e9b528_Face-Recognition.jpeg" alt="Real-Time Face Recognition Attendance System" class="project-img cartoon-image-ui">
+                    <div class="project-info">
+                        <h3>Real-Time Face Recognition Attendance System</h3>
+                        <p class="tech-stack">Python, OpenCV, Dlib, Flask, SQLite</p>
+                        <ul>
+                            <li>Engineered an end-to-end attendance management system using <strong class="highlight">Dlib's face recognition model</strong> with <strong class="highlight">95% accuracy</strong> and real-time processing capabilities</li>
+                            <li>Optimized image processing pipeline with <strong class="highlight">multithreading</strong> and <strong class="highlight">frame buffering</strong>, reducing latency by <strong class="highlight">30%</strong> and supporting multiple simultaneous users</li>
+                            <li>Built responsive web interface with <strong class="highlight">Flask</strong> and <strong class="highlight">SQLite</strong> for attendance tracking, report generation, and user management with <strong class="highlight">role-based access control</strong></li>
+                            <li>Implemented robust error handling for low-light conditions and multiple face detection scenarios</li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/karan2198/Face-Detection-Attendance-System_Final-Year-Project" target="_blank" class="btn btn-secondary">GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card animate__animated animate__fadeInUp" style="animation-delay: 0.1s;">
+                    <img src="/image/Pizza-3007395.jpg" alt="Pizza World E-commerce Platform" class="project-img cartoon-image-ui">
+                    <div class="project-info">
+                        <h3>Pizza World - Full Stack E-commerce Platform</h3>
+                        <p class="tech-stack">React, Redux, Node.js, PostgreSQL</p>
+                        <ul>
+                            <li>Developed a complete e-commerce solution with <strong class="highlight">user authentication</strong>, <strong class="highlight">shopping cart</strong>, <strong class="highlight">payment integration</strong>, and <strong class="highlight">order management</strong> serving <strong class="highlight">500+ active users</strong></li>
+                            <li>Implemented <strong class="highlight">Redux</strong> for state management and <strong class="highlight">JWT-based authentication</strong> with secure password hashing and session management</li>
+                            <li>Designed normalized <strong class="highlight">PostgreSQL database schema</strong> with proper indexing, achieving <strong class="highlight">sub-100ms query response times</strong> for complex operations</li>
+                            <li>Created responsive UI with <strong class="highlight">Tailwind CSS</strong> and implemented comprehensive <strong class="highlight">unit testing</strong> with <strong class="highlight">Jest</strong> and <strong class="highlight">React Testing Library</strong></li>
+                        </ul>
+                        <div class="project-links">
+                            <a href="https://github.com/007Harshvardhan/Pizza-World" target="_blank" class="btn btn-secondary">GitHub <i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="github-cta" class="section github-cta-section container animate__animated animate__fadeInUp">
+            <h2 class="cta-message">Want to see all my coding adventures?</h2>
+            <p class="cta-subtext">Explore a wider range of my projects, experiments, and contributions directly on GitHub!</p>
+            <a href="https://github.com/007Harshvardhan" target="_blank" class="btn btn-primary cta-button">
+                Visit My GitHub <i class="fab fa-github"></i>
+            </a>
+        </section>
+        <section id="skills" class="section container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-category-grid">
+                <div class="skill-category-card animate__animated animate__fadeInRight">
+                    <h3><i class="fas fa-laptop-code"></i> Programming Languages</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Python</span>
+                        <span class="skill-pill">JavaScript</span>
+                        <span class="skill-pill">Java</span>
+                        <span class="skill-pill">C++</span>
+                        <span class="skill-pill">SQL</span>
+                        <span class="skill-pill">HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category-card animate__animated animate__fadeInRight" style="animation-delay: 0.1s;">
+                    <h3><i class="fas fa-cube"></i> Frameworks & Libraries</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">React.js</span>
+                        <span class="skill-pill">Redux</span>
+                        <span class="skill-pill">Next.js</span>
+                        <span class="skill-pill">Express.js</span>
+                        <span class="skill-pill">Node.js</span>
+                        <span class="skill-pill">Flask</span>
+                        <span class="skill-pill">Tailwind CSS</span>
+                        <span class="skill-pill">Bootstrap</span>
+                    </div>
+                </div>
+                <div class="skill-category-card animate__animated animate__fadeInRight" style="animation-delay: 0.2s;">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">PostgreSQL</span>
+                        <span class="skill-pill">MySQL</span>
+                        <span class="skill-pill">MongoDB</span>
+                    </div>
+                </div>
+                <div class="skill-category-card animate__animated animate__fadeInRight" style="animation-delay: 0.3s;">
+                    <h3><i class="fas fa-wrench"></i> Tools & Technologies</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Git</span>
+                        <span class="skill-pill">GitHub</span>
+                        <span class="skill-pill">Docker</span>
+                        <span class="skill-pill">AWS</span>
+                        <span class="skill-pill">RESTful APIs</span>
+                        <span class="skill-pill">GraphQL</span>
+                        <span class="skill-pill">JWT Authentication</span>
+                    </div>
+                </div>
+                <div class="skill-category-card animate__animated animate__fadeInRight" style="animation-delay: 0.4s;">
+                    <h3><i class="fas fa-brain"></i> Machine Learning</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">Scikit-learn</span>
+                        <span class="skill-pill">TensorFlow</span>
+                        <span class="skill-pill">OpenCV</span>
+                        <span class="skill-pill">Dlib</span>
+                        <span class="skill-pill">Pandas</span>
+                        <span class="skill-pill">NumPy</span>
+                    </div>
+                </div>
+                <div class="skill-category-card animate__animated animate__fadeInRight" style="animation-delay: 0.5s;">
+                    <h3><i class="fas fa-tools"></i> Development Tools</h3>
+                    <div class="skill-pills">
+                        <span class="skill-pill">VS Code</span>
+                        <span class="skill-pill">IntelliJ IDEA</span>
+                        <span class="skill-pill">Postman</span>
+                        <span class="skill-pill">Linux/Unix</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="section container">
+            <h2 class="section-title">Achievements & Certifications</h2>
+            <ul class="achievements-list">
+                <li class="animate__animated animate__fadeInUp">
+                    <i class="fas fa-award"></i> <strong class="highlight">LeetCode Knight (Top 4.5%)</strong>: Solved <strong class="highlight">450+ problems</strong> across all difficulty levels. <a href="https://leetcode.com/007Harsh-/" target="_blank" class="achievement-link">Profile Link</a>
+                </li>
+                <li class="animate__animated animate__fadeInUp" style="animation-delay: 0.1s;">
+                    <i class="fas fa-medal"></i> <strong class="highlight">CodeChef 3-Star (Max Rating: 1647)</strong>: Consistent top performer in monthly contests. <a href="https://www.codechef.com/users/harsh07926" target="_blank" class="achievement-link">Profile Link</a>
+                </li>
+                <li class="animate__animated animate__fadeInUp" style="animation-delay: 0.2s;">
+                    <i class="fas fa-flask"></i> <strong class="highlight">RANLP 2025 Finalist</strong>: Selected as <strong class="highlight">Top 10 Finalist</strong> in PolyHope-M Shared Task for developing multilingual speech classification models using deep learning
+                </li>
+                <li class="animate__animated animate__fadeInUp" style="animation-delay: 0.3s;">
+                    <i class="fas fa-trophy"></i> <strong class="highlight">CodeChef Global Rank 232</strong>: Achieved in Lunchtime Division 3 contest among <strong class="highlight">10,000+ participants</strong>
+                </li>
+                <li class="animate__animated animate__fadeInUp" style="animation-delay: 0.4s;">
+                    <i class="fas fa-graduation-cap"></i> <strong class="highlight">JEE Main 2021</strong>: Secured <strong class="highlight">top 2.0 percentile</strong> rank among <strong class="highlight">1.4 million candidates</strong>
+                </li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section container">
+            <h2 class="section-title">Get In Touch</h2>
+            <form class="contact-form animate__animated animate__fadeInUp">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="6" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+            <div class="social-links-footer animate__animated animate__fadeInUp">
+                <a href="https://www.linkedin.com/in/harsh-vardhan-8b406a250" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/007Harshvardhan" target="_blank" aria-label="GitHub"><i class="fab fa-github fa-2x"></i></a>
+                <a href="mailto:harshvardhan1412002@gmail.com" target="_blank" aria-label="Email"><i class="fas fa-envelope fa-2x"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> Harsh Vardhan Kumar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
